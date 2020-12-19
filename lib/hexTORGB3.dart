@@ -1,3 +1,5 @@
-int calculate() {
-  return 6 * 7;
+String getHexValue(var strRGB) {
+  if (strRGB.length != 3) return 'Error';
+
+  return strRGB.length;
 }
