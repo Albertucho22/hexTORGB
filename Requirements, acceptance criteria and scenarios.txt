@@ -1,0 +1,14 @@
+Requirements:
+1- The program language is Dart.
+2- The program must return Hex color value of a RGB color.
+
+Acceptance criteria:
+1- Wrong cases return message error.
+2- Good cases return Hex color value.
+
+Scenarios:
+1.1 -> ['badcase'] -> 'Error'
+1.2 -> ['10','255'] -> 'Error'
+
+2.1 -> ['10','255','2'] --> '#0AFF02'
+2.2 -> ['10','32','2S'] -> '#0A2002'
